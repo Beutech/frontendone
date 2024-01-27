@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.main {
+    margin: 0;
+    display: flex;
+    width: 100%;
+height: 100vh;
+background-color: hsl(271, 36%, 24%);
+}
+
+
+.firstcol{
+   background-color:  hsl(0, 0%, 100%);
+   position: relative;
+    height:100vh ;
+    width: 50vw;
+}
+.secondcol{
+   background-color: white;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    padding-left: 20px;
+    justify-content: center;
+}
+.simplebooking{
+    color: hsl(271, 36%, 24%) ;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.lorem{
+    font-size: 20px;
+    color:hsl(270, 7%, 64%) ;
+    padding-right: 20vw;
+}
+.subone{
+    background-image:linear-gradient(to bottom, hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%));
+    position: absolute;
+    left: -20px;
+    width: 28vw;
+    height: 90vh;
+    border-bottom-left-radius: 195px;
+    border-bottom-right-radius: 230px;
+    
+}
+.subtwo{
+    background-color: white;
+    border-radius :25px;
+    height: 68vh;
+    width: 230px;
+    margin-top: 130px;
+    margin-left: 350px;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 1px 8px 5px -2px rgba(124,111,111,0.63);
+    -webkit-box-shadow: 1px 8px 5px -2px rgba(124,111,111,0.63);
+    -moz-box-shadow: 1px 8px 5px -2px rgba(124,111,111,0.63);;
+    border: 0.4px solid black;
+}
+.minisubtwo{
+    background-color: hsl(270, 20%, 96%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    height: 65vh;
+    width: 210px;
+    border-radius :25px;
+}
